@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q1 Project</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1e90ff;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #1e90ff;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    img.logo {
+      width: 100px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul, ol, dl {
+      margin-left: 30px;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      background-color: #1e90ff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+      width: 120px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #187bcd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #1e90ff;
+      color: white;
+      margin-top: 30px;
+    }
+
+    /* Inline-style demo (see below where it’s used) */
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="ICT logo.png" alt="Logo" class="logo">
+    <h1>Welcome to My Portfolio</h1>
+    <p><i>By <span style="color: yellow;">Andrei Viray</span></i></p>
+  </header>
+
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Hello! My name is <strong>Andrei Viray</strong>, a student passionate about technology, design, and sports. I enjoy learning new digital skills, playing basketball and tennis, and creating simple websites like this one. This portfolio shows what I’ve learned during the first quarter of ICT.</p>
+
+    <h2>My Skills</h2>
+    <ul>
+      <li>Web Design (HTML & CSS)</li>
+      <li>Basic Graphic Editing</li>
+      <li>Team Collaboration</li>
+    </ul>
+
+    <h2>My Interests</h2>
+    <ol>
+      <li>Basketball</li>
+      <li>Biking</li>
+      <li>Video Games</li>
+    </ol>
+
+    <h2>My Hobbies</h2>
+    <dl>
+      <dt>Basketball</dt>
+      <dd>I love practicing shots and watching NBA highlights.</dd>
+      <dt>Biking</dt>
+      <dd>I enjoy riding through the streets with my bike.</dd>
+      <dt>Video Games</dt>
+      <dd>I enjoy creating websites using HTML and CSS.</dd>
+    </dl>
+
+    <h2>Gallery</h2>
+    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b" alt="Basketball" width="300" style="border-radius: 10px;">
+
+    <p>Check out more about web development on <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.</p>
+
+    <h2>Contact Me</h2>
+    <div>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" placeholder="Type your message here..."></textarea>
+
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Andrei Viray | My Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
